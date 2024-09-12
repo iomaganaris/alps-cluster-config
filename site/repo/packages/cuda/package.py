@@ -25,6 +25,26 @@ from spack.package import *
 
 preferred_ver = "11.8.0"
 _versions = {
+    "12.6.1": {
+        "Linux-aarch64": (
+            "b39ac88184798e8c313e6ced23dd128f13ab30c199b96bd9c0bee07dbdd31400",
+            "https://developer.download.nvidia.com/compute/cuda/12.6.1/local_installers/cuda_12.6.1_560.35.03_linux_sbsa.run",
+        ),
+        "Linux-x86_64": (
+            "73acce7243519625f259509f5dcff6dc8fbd23dca53b852aa9ce382009e92e9d",
+            "https://developer.download.nvidia.com/compute/cuda/12.6.1/local_installers/cuda_12.6.1_560.35.03_linux.run",
+        ),
+    },
+    "12.6.0": {
+        "Linux-aarch64": (
+            "398db7baca17d51ad5035c606714c96380c965fd1742478c743bc6bbb1d8f63c",
+            "https://developer.download.nvidia.com/compute/cuda/12.6.0/local_installers/cuda_12.6.0_560.28.03_linux_sbsa.run",
+        ),
+        "Linux-x86_64": (
+            "31ab04394e69b14dd8656e2b44c2877db1a0e898dff8a7546a4c628438101b94",
+            "https://developer.download.nvidia.com/compute/cuda/12.6.0/local_installers/cuda_12.6.0_560.28.03_linux.run",
+        ),
+    },
     "12.4.0": {
         "Linux-aarch64": (
             "b12bfe6c36d32ecf009a6efb0024325c5fc389fca1143f5f377ae2555936e803",
